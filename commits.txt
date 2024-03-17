@@ -1,0 +1,65 @@
+commit 13224d9229a72cd6c566d1b3fd29c4acc2f33b96
+Author: FREDRICK MCBOYLE <f.mcboyle.23@abdn.ac.uk>
+Date:   Sun Mar 17 22:37:01 2024 +0000
+
+    Finishing touches completed on the pages
+
+commit b4b2216938f5fd11cbd2a4d09709a5a9625bb26f
+Author: FREDRICK MCBOYLE <f.mcboyle.23@abdn.ac.uk>
+Date:   Sun Mar 17 21:56:52 2024 +0000
+
+    Most of the visit page complete
+
+commit 69165ecd4e7352361e6535eab66267767616bd72
+Author: FREDRICK MCBOYLE <f.mcboyle.23@abdn.ac.uk>
+Date:   Sun Mar 17 20:48:35 2024 +0000
+
+    Fixed issues when on mobile, started work on visit page
+
+commit d8b303ff4c06221aeea243eafefc54b51828cd11
+Author: FREDRICK MCBOYLE <f.mcboyle.23@abdn.ac.uk>
+Date:   Sun Mar 17 15:05:36 2024 +0000
+
+    Content completed for the home page. Small issue with resizing the page to be fixed later. History page halfway done.
+
+commit eccca221eaadd20a7b250d71501ef687d9e39008
+Author: FREDRICK MCBOYLE <f.mcboyle.23@abdn.ac.uk>
+Date:   Sun Mar 17 13:35:53 2024 +0000
+
+    Basic Structure for first page completed, remaining content will be added soon
+
+commit 346992cdc204b0933932a93d4169b91650819131
+Author: FREDRICK MCBOYLE <f.mcboyle.23@abdn.ac.uk>
+Date:   Sun Mar 17 02:47:24 2024 +0000
+
+    Page design progress
+
+commit 89149cdab426d05a1caf71fb54bae5f2a4640328
+Author: FREDRICK MCBOYLE <f.mcboyle.23@abdn.ac.uk>
+Date:   Fri Mar 15 13:58:11 2024 +0000
+
+    add images
+
+commit 57327ae58dcdfc45fba11d198be145c80fa42bb7
+Author: Diamondscar <158471078+Diamondscar599@users.noreply.github.com>
+Date:   Fri Mar 15 13:18:47 2024 +0000
+
+    Delete Morioh Website
+
+commit 651ebd6e9e6e485ee5cf720d0c4ef1afb3de694c
+Author: Diamondscar <158471078+Diamondscar599@users.noreply.github.com>
+Date:   Fri Mar 15 13:18:07 2024 +0000
+
+    Create Morioh Website
+
+commit f398a2c4640bd5690792ddfa079f8928a32f80cd
+Author: Diamondscar <158471078+Diamondscar599@users.noreply.github.com>
+Date:   Fri Mar 15 13:17:32 2024 +0000
+
+    Create home.hmtl
+
+commit 6287c21d6a96665f823c254fb5fe55380a038763
+Author: Diamondscar <158471078+Diamondscar599@users.noreply.github.com>
+Date:   Fri Mar 8 14:06:22 2024 +0000
+
+    Initial commit

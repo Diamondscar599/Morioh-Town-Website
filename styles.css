@@ -113,7 +113,7 @@ body{
   background-color: #9900cc !important;
 }
 
-@keyframes fadeOut {
+@keyframes fadeOut { 
   0% {
     opacity: 1;
   }
