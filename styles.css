@@ -26,20 +26,27 @@
 }
 
 a{
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Impact;
   font-size: 30px;
   padding-right: 100px;
   padding-left: 100px;
   color: blue;
-  background-color: greenyellow;
+  background-color:lavender;
+  border-radius: 10px;
 }
 
 .subtitle{
+  background-color: antiquewhite;
+  margin: 15px;
   padding: 20px;
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .navDiv{
-  background-color:blue;
+  background-color:#9900cc;
   position: relative;
   padding: 20px;
 }
@@ -50,3 +57,71 @@ a{
   width: 50%;
   padding: 10px;
 }
+
+body{
+  background-color: aquamarine;
+}
+
+#map{
+  display: inline;
+  float: right;
+  width: 50%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+#real{
+  display: inline;
+  float: right;
+  width: 50%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: beige;
+  margin:15px;
+  padding:10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.nextToImage{
+  float:left;
+  display:inline;
+  display:flex;
+}
+
+body{
+  background-color: #9900cc !important;
+}
+
+
+button {
+  user-select: none
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 20;
+  }
+  100% {
+  opacity: 1;
+  }
+}
+
+
