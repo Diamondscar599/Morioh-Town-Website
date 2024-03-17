@@ -58,6 +58,12 @@ a{
   padding: 10px;
 }
 
+.center:hover{
+  transform: scale(1.1);
+  background: yellow;
+  box-shadow: 0 0 100px yellow;
+}
+
 body{
   background-color: aquamarine;
 }
@@ -70,20 +76,39 @@ body{
   margin: 25px;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 2px black;
+  transition: 0.5s all ease-in-out;
 }
+
+#map:hover{
+  background: paleturquoise;
+  box-shadow: 0 0 100px paleturquoise;
+  transform: scale(1.2);
+}
+
 
 #real{
+  position: absolute;
   display: inline;
-  float: right;
-  width: 50%;
+  width: 35%;
   height: auto;
+  left: 30px;
+  top: 850px;
   margin: 25px;
+  z-index: 1;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 2px black;
+  transition: 0.5s all ease-in-out;
 }
 
+#real:hover{
+  background: yellow;
+  box-shadow: 0 0 100px yellow;
+  transform: scale(1.2);
+}
+
+
 p{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Lucida Sans Unicode';
   background-color: beige;
   margin:15px;
   padding:10px;
@@ -95,15 +120,12 @@ p{
   float:left;
   display:inline;
   display:flex;
+  width: 100%;
+  margin: auto;
 }
 
 body{
   background-color: #9900cc !important;
-}
-
-
-button {
-  user-select: none
 }
 
 @keyframes fadeOut {
@@ -122,6 +144,11 @@ button {
   100% {
   opacity: 1;
   }
+}
+
+button{
+  width:100%;
+  height:auto;
 }
 
 

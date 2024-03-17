@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <script type="text/javascript" src= "scripts.js"></script>
 	<meta charset="utf-8">
 	<title>History</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	<script src= "scripts.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <header>
@@ -20,13 +20,13 @@
     <nav>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm center text-center">
+          <div class="col-sm center text-center" style = "transition: 0.5s all ease-in-out;">
             <a href="index.html">Home</a>
           </div>
-          <div class="col-sm center text-center">
+          <div class="col-sm center text-center" style = "transition: 0.5s all ease-in-out;">
             <a href="history.html">History</a>
           </div>
-          <div class="col-sm center text-center">
+          <div class="col-sm center text-center" style = "transition: 0.5s all ease-in-out;">
             <a href="visit.html">Visiting</a>
           </div>
         </div>
@@ -36,5 +36,34 @@
 </header>
 
 <body>
+  <h2 class = "subtitle">Morioh's History</h2>
+  <div class = "nextToImage">
+    <p style = "font-size:20px;">
+      Morioh is a suburb of S City. Although it quickly developed during the 1980s, 
+      it was inhabited even in the ancient days of the samurai. 
+      It had many martial arts training grounds and vacation homes, 
+      where its summer attractions may have come from.
+      Even now, there are still many villas of samurai left. 
+      <br></br>
+      <button onclick="change1()" type="button">Modern Art</button>
+      <br></br>
+      <button onclick="change2()" type="button">Historical Art</button>
+      <br></br>
+      <button onclick="change3()" type="button">Samurai Village</button>
+    </p>
+    <img id = "map" src="images/samurai.png" Samurai Picture/>
+    <script>cons map = document.getElementById('map')</script>
+  </div> 
+  <div class = "nextToImage">
+    <p>
+      Not much earlier, Morioh had been just a rural town where 
+      one could find only rice and vegetable fields. 
+      The country town was run mostly by agriculture business 
+      and as a result people in there had hard and cracked hands. 
+      They often needed to check on the water in the paddy fields 
+      in the middle of the night. There was at least one area in 
+      the Northeast famous for an old summer retreat.
+    </p>
+  </div>  
 </body>
 </html>
