@@ -20,8 +20,17 @@ function scroll1(){
   document.getElementById('start').scrollIntoView()
 }
 function scroll2(){
-  document.getElementById('middle').scrollIntoView()
+  document.getElementById('middle1').scrollIntoView()
 }
 function scroll3(){
+  document.getElementById('middle2').scrollIntoView()
+}
+function scroll4(){
+  document.getElementById('middle3').scrollIntoView()
+}
+function scroll5(){
+  document.getElementById('middle4').scrollIntoView()
+}
+function scroll6(){
   document.getElementById('end').scrollIntoView()
 }
