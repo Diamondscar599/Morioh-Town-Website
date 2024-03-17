@@ -1,0 +1,52 @@
+.title{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color:black;
+  background-color: greenyellow;
+  border-radius: 25px;
+  box-shadow: 2px 3px 3px 2px black;
+}
+
+
+.crest{
+  padding: 20px;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner{
+  width: 30px;
+  length: 100px;
+  display: inline;
+}
+
+a{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+  color: blue;
+  background-color: greenyellow;
+}
+
+.subtitle{
+  padding: 20px;
+}
+
+.navDiv{
+  background-color:blue;
+  position: relative;
+  padding: 20px;
+}
+
+.center{
+  border: 5px solid black;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
