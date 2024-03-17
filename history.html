@@ -37,7 +37,7 @@
 
 <body>
   <h2 class = "subtitle">Morioh's History</h2>
-  <div class = "nextToImage">
+  <div>
     <p style = "font-size:20px;">
       Morioh is a suburb of S City. Although it quickly developed during the 1980s, 
       it was inhabited even in the ancient days of the samurai. 
@@ -51,19 +51,30 @@
       <br></br>
       <button onclick="change3()" type="button">Samurai Village</button>
     </p>
-    <img id = "map" src="images/samurai.png" Samurai Picture/>
-    <script>cons map = document.getElementById('map')</script>
   </div> 
-  <div class = "nextToImage">
-    <p>
+  <div style = "width:300px;height:600px;">
+    <img id = "map" style="display:block;position:absolute;margin-left:25%" src="images/samurai.png" Samurai Picture/>
+    <script>cons map = document.getElementById('map')</script>
+  </div>
+  <div>
+    <p style = "font-size:20px;">
       Not much earlier, Morioh had been just a rural town where 
       one could find only rice and vegetable fields. 
       The country town was run mostly by agriculture business 
       and as a result people in there had hard and cracked hands. 
       They often needed to check on the water in the paddy fields 
-      in the middle of the night. There was at least one area in 
-      the Northeast famous for an old summer retreat.
+      in the middle of the night.
+      <br></br>
+      <button onclick="change4()" type="button">Morioh at Night</button>
+      <br></br>
+      <button onclick="change5()" type="button">Rice Fields 1</button>
+      <br></br>
+      <button onclick="change6()" type="button">Rice Fields 2</button>
     </p>
-  </div>  
+  </div> 
+  <div style = "width:300px;height:400px;">
+    <img id = "map2" style="display:block;position:absolute;margin-left:25%" src="images/moriohTown2.jpg" Samurai Picture/>
+    <script>cons map = document.getElementById('map2')</script>
+  </div> 
 </body>
 </html>

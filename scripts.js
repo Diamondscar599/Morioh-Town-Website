@@ -7,3 +7,12 @@ function change2(){
 function change3(){
   map.src = "images/samVillage.jpg";
 }
+function change4(){
+  map2.src = "images/moriohTown2.jpg";
+}
+function change5(){
+  map2.src = "images/rice1.jpeg";
+}
+function change6(){
+  map2.src = "images/rice2.jpg";
+}

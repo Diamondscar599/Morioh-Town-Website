@@ -58,7 +58,7 @@ a{
   padding: 10px;
 }
 
-.center:hover{
+nav .center:hover{
   transform: scale(1.1);
   background: yellow;
   box-shadow: 0 0 100px yellow;
@@ -68,9 +68,9 @@ body{
   background-color: aquamarine;
 }
 
-#map{
+#map, #map2{
+  object-fit: cover;
   display: inline;
-  float: right;
   width: 50%;
   height: auto;
   margin: 25px;
@@ -86,24 +86,10 @@ body{
 }
 
 
-#real{
-  position: absolute;
-  display: inline;
-  width: 35%;
-  height: auto;
-  left: 30px;
-  top: 850px;
-  margin: 25px;
-  z-index: 1;
-  border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px black;
-  transition: 0.5s all ease-in-out;
-}
-
-#real:hover{
-  background: yellow;
-  box-shadow: 0 0 100px yellow;
-  transform: scale(1.2);
+#map2:hover{
+  background: yellow !important;
+  box-shadow: 0 0 100px yellow !important;
+  transform: scale(1.2) !important;
 }
 
 
@@ -120,7 +106,6 @@ p{
   float:left;
   display:inline;
   display:flex;
-  width: 100%;
   margin: auto;
 }
 
@@ -151,4 +136,11 @@ button{
   height:auto;
 }
 
+.row{
+  display:flex;
+}
 
+.column{
+  flex: 33.33%;
+  padding: 5px;
+}
