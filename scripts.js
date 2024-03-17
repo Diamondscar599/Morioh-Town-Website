@@ -16,3 +16,12 @@ function change5(){
 function change6(){
   map2.src = "images/rice2.jpg";
 }
+function scroll1(){
+  document.getElementById('start').scrollIntoView()
+}
+function scroll2(){
+  document.getElementById('middle').scrollIntoView()
+}
+function scroll3(){
+  document.getElementById('end').scrollIntoView()
+}
